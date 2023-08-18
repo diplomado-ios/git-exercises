@@ -12,3 +12,13 @@ var myToDoList = ["Take out the trash", "Pay bills", "Cross off finished items"]
  
 Use the documentation to find a property defined on the Array type that will tell you whether myToDoList
 contains any elements. Print `true` in the console if it contains any element and `false` if it doesn't contain any element.
+
+## Sets
+Consider the following code that models the cities two people have visited as sets.
+```swift
+    let myCities: Set = ["Atlanta", "Chicago", "Jacksonville", "New York", "Denver"]
+    let yourCities: Set = ["Chicago", "Denver", "Jacksonville"]
+```
+
+Find a method on Set that returns a Bool indicating whether myCities contains all the cities contained by yourCities. Print true if the `myCities` Set contains all the cities in `yourCities` and false otherwise
+(Hint: This relationship would make myCities a superset of yourCities.)
