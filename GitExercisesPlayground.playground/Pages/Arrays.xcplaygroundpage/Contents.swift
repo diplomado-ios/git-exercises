@@ -9,3 +9,4 @@ let myTodoList: [String] = CommandLine.arguments.count == 1 ? [] : CommandLine.a
 
 // print true if the array is empty and false if it contains
 
+// print true if the array is empty and false if it contains at least one element
